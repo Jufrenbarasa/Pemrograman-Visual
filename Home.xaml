@@ -1,0 +1,26 @@
+﻿<Window x:Class="Pemrograman_Visual.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pemrograman_Visual"
+      mc:Ignorable="d" 
+      Title="Home" Height="768" Width="1366"
+      WindowStartupLocation="CenterScreen" WindowState="Maximized">
+
+    <Grid>
+        <Grid>
+            <Rectangle Width="200" Height="768"
+                       HorizontalAlignment="Left">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="#254789" Offset="0.0" />
+                        <GradientStop Color="#203e7a" Offset="0.25" />
+                        <GradientStop Color="#203e7a" Offset="0.75" />
+                        <GradientStop Color="#1d3669" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+    </Grid>
+</Window>
